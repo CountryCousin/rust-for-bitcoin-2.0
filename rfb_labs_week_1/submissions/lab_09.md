@@ -4,6 +4,8 @@
 
 TODO: Record funding, confirmation, spending, and decoding commands.
 
+`cargo test --test lab_01`
+
 ## Terminal output
 
 TODO: Show Alice's three UTXOs and the combined transaction inputs and outputs.
