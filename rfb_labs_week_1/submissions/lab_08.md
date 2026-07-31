@@ -4,6 +4,8 @@
 
 TODO: Record block-header inspection and additional mining commands.
 
+`cargo test --test lab_08`
+
 ## Terminal output
 
 TODO: Show header fields and confirmation count changing from one to six.
