@@ -4,6 +4,8 @@
 
 TODO: Record the mining, mempool, transaction, and block commands.
 
+`cargo test --test lab_07`
+
 ## Terminal output
 
 TODO: Show the empty mempool, confirmation count, block hash, and TXID in block.
