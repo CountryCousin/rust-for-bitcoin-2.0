@@ -3,6 +3,7 @@
 ## Commands used
 
 TODO: Record the commands used to inspect and calculate wallet UTXOs.
+`cargo test --test lab_04`
 
 ## Terminal output
 
