@@ -11,11 +11,11 @@ bcli getblockchaininfo
 
 
 ## Terminal output
+TODO: Record chain, block height, and best-block hash.
+
 <img width="824" height="183" alt="Screenshot 2026-07-31 at 22 37 24" src="https://github.com/user-attachments/assets/68bc09ca-8791-404b-9ebb-c6dddc3d5099" />
 
 <img width="661" height="271" alt="Screenshot 2026-07-31 at 05 21 16" src="https://github.com/user-attachments/assets/6f9e3d93-9c52-45bb-80c8-9a7f40615341" />
-
-TODO: Record chain, block height, and best-block hash.
 
 chain : regtest
 
