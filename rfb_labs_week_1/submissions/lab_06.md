@@ -3,6 +3,7 @@
 ## Commands used
 
 TODO: Record the verbose transaction-decoding commands.
+cargo test --test lab_06
 
 ## Terminal output
 
