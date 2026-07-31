@@ -4,6 +4,8 @@
 
 TODO: Record the payment, mempool, transaction, and balance commands.
 
+`cargo test --test lab_01`
+
 ## Terminal output
 
 TODO: Show the TXID, zero confirmations, mempool entry, and pending balance.
