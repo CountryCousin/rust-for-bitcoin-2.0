@@ -4,6 +4,8 @@
 
 TODO: Record mining, balance inspection, and premature-spend commands.
 
+`cargo test --test lab_03`
+
 ## Terminal output
 
 TODO: Show balances at heights 1 and 101 plus the failed premature spend.
