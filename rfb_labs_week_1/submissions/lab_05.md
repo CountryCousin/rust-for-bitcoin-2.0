@@ -3,6 +3,7 @@
 ## Commands used
 
 TODO: Record the payment, mempool, transaction, and balance commands.
+cargo test --test lab_05
 
 ## Terminal output
 

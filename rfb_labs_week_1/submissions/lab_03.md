@@ -3,6 +3,7 @@
 ## Commands used
 
 TODO: Record mining, balance inspection, and premature-spend commands.
+cargo test --test lab_03 
 
 ## Terminal output
 

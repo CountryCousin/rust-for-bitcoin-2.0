@@ -4,6 +4,7 @@
 
 TODO: Record the mining, mempool, transaction, and block commands.
 
+
 ## Terminal output
 
 TODO: Show the empty mempool, confirmation count, block hash, and TXID in block.

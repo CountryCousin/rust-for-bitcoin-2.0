@@ -4,6 +4,10 @@
 
 TODO: List the Rust command and Bitcoin Core RPCs you ran.
 
+cargo test --test lab_01
+bitcoind -regtest -daemon
+bcli getblockchaininfo
+
 ## Terminal output
 
 TODO: Record chain, block height, and best-block hash.
