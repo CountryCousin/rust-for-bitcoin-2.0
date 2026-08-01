@@ -27,3 +27,9 @@ The screenshot above shows `ismine": true,` confirming ownership, hence the owne
 ## Explanation
 
 TODO: Explain wallet context and the purpose of `-rpcwallet`.
+
+Wallet context determines which loaded wallet a Bitcoin Core RPC command operates on (balance, addresses, transactions, etc.).
+
+
+
+`-rpcwallet` explicitly selects that wallet for the RPC request, which is required when multiple wallets are loaded.
