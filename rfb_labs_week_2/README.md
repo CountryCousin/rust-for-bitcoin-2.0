@@ -54,3 +54,6 @@ attempted) the optional transaction-state extension.
 ## Example output
 
 Paste the output of `cargo run` here once Part 8 is complete.
+
+## written
+1. A transaction input is a reference to an existing unspent output that is being spent. It proves ownership of that previous output and authorizes moving its value into a new transaction.
