@@ -65,7 +65,7 @@ impl Transaction {
     pub fn add_input(&mut self, input: InputKind) {
         // TODO(Part 3): move `input` into the transaction.
         // let _ = input;
-          self.inputs.push(input);
+        self.inputs.push(input);
         // todo!("add an input")
     }
 
@@ -100,18 +100,18 @@ impl Transaction {
         let total_inputs = self.total_input_value();
         let total_outputs = self.total_output_value();
 
-        total_inputs.checked_sub(total_outputs).ok_or(
-            TransactionError::OutputsExceedInputs {
+        total_inputs
+            .checked_sub(total_outputs)
+            .ok_or(TransactionError::OutputsExceedInputs {
                 total_inputs,
                 total_outputs,
-            },
-        )
+            })
     }
 
     pub fn validate(&self) -> Result<(), TransactionError> {
         // TODO(Part 5): apply every validation rule in ASSIGNMENT.md.
         // todo!("validate the transaction")
-         if self.inputs.is_empty() {
+        if self.inputs.is_empty() {
             return Err(TransactionError::NoInputs);
         }
 
@@ -160,7 +160,6 @@ impl Transaction {
         }
 
         Ok(())
-    
     }
 }
 
@@ -208,9 +207,7 @@ impl fmt::Display for OutPoint {
     fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
         // TODO(Part 6): format as `<txid>:<vout>`.
         // todo!("display an outpoint")
-        fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(formatter, "{}:{}", self.txid, self.vout)
-    }
     }
 }
 
@@ -269,11 +266,7 @@ impl fmt::Display for Transaction {
         for output in &self.outputs {
             writeln!(formatter, "  - {}", output)?;
         }
-        writeln!(
-            formatter,
-            "Total inputs: {} sats",
-            self.total_input_value()
-        )?;
+        writeln!(formatter, "Total inputs: {} sats", self.total_input_value())?;
         writeln!(
             formatter,
             "Total outputs: {} sats",
@@ -282,6 +275,6 @@ impl fmt::Display for Transaction {
         match self.fee() {
             Ok(fee) => write!(formatter, "Fee: {} sats", fee),
             Err(err) => write!(formatter, "Fee: error ({})", err),
+        }
     }
-}
 }

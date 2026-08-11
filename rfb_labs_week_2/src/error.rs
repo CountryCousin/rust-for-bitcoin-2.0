@@ -42,10 +42,16 @@ impl fmt::Display for TransactionError {
                 total_inputs, total_outputs
             ),
             TransactionError::CoinbaseMixedWithRegularInputs => {
-                write!(formatter, "coinbase input cannot be mixed with regular inputs")
+                write!(
+                    formatter,
+                    "coinbase input cannot be mixed with regular inputs"
+                )
             }
             TransactionError::MultipleCoinbaseInputs => {
-                write!(formatter, "transaction contains more than one coinbase input")
+                write!(
+                    formatter,
+                    "transaction contains more than one coinbase input"
+                )
             }
             TransactionError::InvalidTxid => {
                 write!(formatter, "previous output references an invalid txid")

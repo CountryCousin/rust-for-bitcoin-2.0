@@ -73,3 +73,8 @@ Paste the output of `cargo run` here once Part 8 is complete.
 11. The enum represents two distinct kinds of inputs with different data requirements. Exhaustive pattern matching forces the code to handle both regular and coinbase cases explicitly.
 12. The trait provides a common way to obtain a value from different types. Generic code can work with any type implementing the trait instead of writing separate summation logic for inputs and outputs.
 
+
+## Required work
+# Explain why InputKind is an enum and how matching forces both regular and coinbase inputs to be handled.
+
+
